@@ -1,0 +1,296 @@
+.team-wrapper {
+  background-image: url('./iron-man.png');
+  height: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.team-wrapper .heading {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+  padding-top: 100px;
+  margin-bottom: 2rem;
+}
+
+.team-wrapper .team-code {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+
+.team-wrapper .button-wrapper button {
+  background-color: #E13D25;
+  outline: none;
+  padding: 1rem 2rem;
+  color: #fff;
+  font-size: 1rem;
+  /* margin-right: 10vw; */
+  margin: 4rem auto 1rem;
+  align-self: center;
+  border-radius: 20px;
+}
+
+.hint-wrapper {
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.hint-wrapper:nth-child(3) {
+  padding-bottom: 2rem;
+}
+
+.team-wrapper .text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.copy-text {
+  /* position: relative; */
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+}
+
+.copy-text input.text {
+  padding: 1rem;
+  font-size: 1rem;
+  color: #555;
+  border: none;
+  outline: none;
+}
+
+.copy-text button {
+  padding: 10px;
+  background: #5784f5;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.copy-text button:active {
+  background: #809ce2;
+}
+
+.team-wrapper .warning {
+  color: rgb(221, 110, 110);
+  padding-top: 2rem;
+  font-size: 1.25rem;
+}
+
+
+.heading-2 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 500;
+  padding-top: 120px;
+}
+
+
+
+.team-wrapper-2 {
+  padding: 100px 20px 200px;
+  height: 100vh;
+  padding-top: 100px;
+  text-align: center;
+  justify-content: center;
+}
+
+.btn-teams {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.btn-teams button {
+  padding: 15px 20px !important;
+}
+
+.para-teams {
+  color: white;
+  font-size: 1rem;
+  margin-top: 30px;
+}
+
+.popup-content {
+  margin: auto;
+  background: #282828 !important;
+  width: 40% !important;
+  min-width: 300px;
+  padding: 0 !important;
+  border: none !important;
+  border-radius: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 0;
+
+}
+
+.form label {
+  color: #c2c2c5;
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.form h1 {
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.form input {
+  background: transparent;
+  border: 0;
+  color: #f2f2f2;
+  font-size: 20px;
+  height: 30px;
+  width: 280px;
+  line-height: 30px;
+  outline: none !important;
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(0.25turn, #E13D25, #e1a525, rgba(155, 79, 2, 0));
+  border-image-slice: 1;
+  margin: 10px auto 4rem;
+  text-align: center;
+}
+
+.form button {
+  margin-top: 20px;
+  padding: 10px 40px;
+  cursor: pointer;
+  border: 2px solid white;
+  background: none;
+  color: white;
+}
+
+/* .form {
+    background: #282828;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .form label {
+    color:  #c2c2c5;
+    display: block;
+    font-size: 14px;
+    height: 16px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  .form h1{
+    color: white;
+  }
+  
+  .form  input {
+    background: transparent;
+    border: 0;
+    color: #f2f2f2;
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+    outline: none !important;
+    width: 100%;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(0.25turn, #E13D25, #e1a525, rgba(155, 79, 2, 0));
+    border-image-slice: 1;
+  }
+  .form  input::-moz-focus-inner { 
+    border: 0; 
+  }
+  
+  .form button{
+    margin-top: 20px;
+    padding: 10px 40px;
+    cursor: pointer;
+    border: 2px solid white;
+    background: none;
+    color: white;
+  }
+
+  .form button:hover{
+    background-color: white;
+    color: #2D2F36;
+  } */
+
+
+@media (max-width: 1440px) {
+  .team-wrapper {
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 992px) {
+  .team-wrapper .heading {
+    font-size: 2rem;
+  }
+
+  .team-wrapper {
+    align-items: center;
+  }
+
+  .team-wrapper-2 {
+    padding: 100px 50px 10px;
+  }
+
+  .team-wrapper .button-container button {
+    margin: 0;
+    padding: 1rem;
+  }
+}
+
+@media (max-width:610px) {
+  .heading-2 {
+    padding-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .heading-2 {
+    font-size: 2rem;
+    line-height: 60px;
+  }
+
+  .para-teams {
+    font-size: 0.8rem;
+    margin-top: 15px;
+  }
+
+  .team-wrapper-2 {
+    padding: 100px 10px 10px;
+  }
+
+  .customNavLink {
+    font-size: 1.4rem;
+  }
+
+  .warning {
+    color: rgb(188 188 188 / 50%);
+    font-size: 1.1rem;
+  }
+}

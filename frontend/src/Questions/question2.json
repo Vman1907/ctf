@@ -1,0 +1,47 @@
+[
+    {
+            "id": 1,
+            "question": "Tony Stark's grandfather was friends with Samuel Morse and he learned a code from him, which was much used in World War, which he also used to hide the first hint : -",
+            "questionHint":". .- .-. . -. -.. .-. .- -. .- - .... / -.. .- - - .- ",
+            "Hint":"Enter the answer in UpperCase and include spacing wherever required.",
+            "hintText": "Google the answer you just entered :)",
+            "solution":"NARENDRANATH DATTA",
+            "storyLine1" : "Tony : Hey you! Yes you. Listen, I need you to find me a code that I hid in your campus. Friday will give you the details you require!",
+            "storyLine2":"Friday: Boss's AI J.A.R.V.I.S has been hacked by Ultron and while developing Jarvis he created a D-Day protocol for a situation like this but to access it he needs a code. The catch is that in his MIT years, Boss spent two months as an assistant professor In NIT Agartala . His memory is working a bit funny today. He only remembers bits of clues. Help him find the code to recover J.A.R.V.I.S. and I will be giving you clues as Boss remembers them. Hurry up! Ultron is not good news.",
+            "storyLine3":"Tony : So listen, I need you to find the numbers quickly. As far as I can remember, the first number must be hidden on the place where I  was called to be briefed about my role int NIT Agartala "
+        },
+        {
+            "id": 2,
+            "question": "SOLVE IF YOU CAN, GOOGLE IF YOU WANT AND GUESS THE LOCATION IF YOU CAN  ; Have you heard of binary ...🤫. (10111.10000011101000,1011011.1000001011101)",
+            "Hint":"Enter the answer in the same format. Take care of spacing.",
+            "hintText": "I wonder, could those be co-ordinates to some location.",
+            "hintImg": "https://i.postimg.cc/FsnL3yB6/image7.png",
+            "solution":"23.8424,91.4189",
+            "storyLine" :"Tony: Oh you catch up quick ! Now listen carefully, I used to travel a lot there as the college was literally situated on a mountain among jungles then. I had a knack for riddles at that time . They were Stupid ,ingenious and ahead of their time . The next  one is on image recognition."
+        },
+        {
+            "id": 3,
+            "question": "A peddler wishes to take a lion, a deer and a bundle of hay across a river. He rented a rowboat for the same. But crossing the river by a boat, the peddler has a constraint of carrying only himself and either of the three objects ( lion, deer or bundle of hay). If left unattended together, the lion would eat the deer, or the deer would eat the hay. The peddler's challenge is to carry himself and his objects across the river, leaving each object intact.  How many minimum trips would the peddler take to get everything on the other side (without any harm)? Crossing the river counts as one trip.",
+            "Hint":"Enter the answer in number not in text.",
+            "hintText": "তিন blocks on your left, এক block in front and তিন blocks on your right.",
+            "solution":"7",
+            "storyLine":"Tony : Back in college days, I used to spend my leisure time interacting with strangers. Owing to the hostel restrictions, I had to share my room for the first time in my life. That guy was a nerd, always into books related to Aptitude. Somehow he was convinced that he would take revenge from his Ex by clearing an exam . But roommates ain’t that bad .Nevertheless He asked me this question once and I included it in."
+        },
+        {
+            "id": 4,
+            "question": "Calculate the height of table? Given-height of cat=C, height of turtle=X and height of table = T",
+            "Hint":"Enter the answer in number not in text.",
+            "hintText": "Sweat and thirst, speed and stamina 🏋‍♂🏋🌳🏀",
+            "questionImg": "https://i.postimg.cc/zGc6scPk/image1.jpg",
+            "solution":"150",
+            "storyLine":"Tony: Hey! you solved it fast. Maybe the trend of using exams as revenge still prevails there. Now the students that I used to deal with  took admission in the college after clearing rigorous exams as every Asian country does. But this was something different and it was nice interacting with them. Since I respect things which deserve it.Here goes your next question."
+        },
+        {
+            "id": 5,
+            "Hint":"Enter the answer in UpperCase and don't give any spacing between text.",
+            "question": "The place where you'll get everything you need Inside the campus",
+            "hintText": "Go to the place where tony used to go and ask for DCC ki favourite chai.",
+            "solution":"SHOPPINGCOMPLEX",
+            "storyLine":"Tony : I now recall the time I was stuck at Tennessee. Without Jarvis, without my suit, in cold, exhausted. I believe you too must be exhausted by now. Just one more to go. After a long cold day I used to go to a place inside campus to have the beverage I longed for."
+       }
+   ]

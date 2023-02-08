@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+
+.App {
+    height: 100vh;
+    min-height: max-content;
+    overflow-x: hidden;
+}
+
+.homeNavbar {
+    margin: 0;
+    padding: 0;
+    height: 6rem;
+    width: 100vw;
+    background: linear-gradient(90deg, #1C1B20 4.76%, #2B2A33 97.4%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 500px) {
+    .brandText {
+        font-size: 0.5rem;
+    }
+}
+
+.brandText {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: #F8F7FC;
+    margin-left: 15px;
+}
+
+.logoHome {
+    background-image: url('./components/logo.png');
+    width: 2.5rem;
+    height: 2.5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

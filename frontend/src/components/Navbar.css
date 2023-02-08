@@ -1,0 +1,222 @@
+.navbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 100;
+  background: linear-gradient(90deg, #1C1B20 4.76%, #2B2A33 97.4%);
+  padding: 0;
+}
+
+.nav_wrapper {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1350px;
+  padding: 0.5rem 1rem;
+}
+
+.logoProfile img {
+  width: 90px;
+}
+
+.nav_menu {
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.nav_menu_item {
+  cursor: pointer;
+}
+
+.nav_menu_item:hover {
+  color: #22A7F0;
+}
+
+.nav_menu_item+.nav_menu_item {
+  margin-left: 20px;
+}
+
+.nav_menu_list {
+  display: flex;
+  color: white;
+}
+
+.nav_menu_icon {
+  color: white;
+  font-size: 2.5rem;
+  display: none;
+  cursor: pointer;
+}
+
+.nav_mobile {
+  position: fixed;
+  top: 95px;
+  right: 0;
+  color: white;
+  z-index: 200;
+  background: linear-gradient(90deg, #1C1B20 4.76%, #2B2A33 97.4%);
+  width: 100%;
+  transform: translateX(100%);
+  transition: 0.5s;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  background-color: rgba(26, 25, 30, 0.97);
+}
+
+.mobile_active {
+  transform: translateX(0%);
+  animation: mobile_open 0.5s ease-in-out;
+}
+
+@keyframes mobile_open {
+  0% {
+    transform: translateX(100%);
+  }
+
+  30% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+
+}
+
+.mobile_menu_item {
+  cursor: pointer;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.mobile_menu_item:hover {
+  color: #22A7F0;
+}
+
+.mobile_menu_item::selection {
+  background-color: transparent;
+}
+
+@media (max-width: 1000px) {
+  .nav_wrapper {
+    padding: 0 1rem;
+  }
+
+  .nav_menu_list {
+    display: none;
+  }
+
+  .nav_menu_icon {
+    display: block;
+  }
+
+  .nav_mobile {
+    top: 120px;
+  }
+}
+
+.navCustomStyling {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.customNavLink {
+  text-decoration: none;
+  color: #B7B9BD;
+}
+
+.brandName {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 18px;
+  color: #F8F7FC;
+  margin-left: 20px;
+
+}
+
+.logoProfile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 500px) {
+  .brandName {
+    font-size: .75rem;
+    margin-left: 5px;
+  }
+
+  .logoProfile img {
+    width: 90px;
+  }
+
+  .nav_mobile {
+    top: 90px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .nav_mobile {
+    top: 90px;
+  }
+}
+
+.joinTeamButton {
+  background: none;
+  color: #B7B9BD;
+  border: none;
+  padding: 0 13px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.cardMember {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: solid grey 0.5px;
+  border-image: linear-gradient(45deg, rgb(21, 0, 128), rgb(251, 251, 251)) 1;
+  margin-bottom: 10px;
+}
+
+.memberName {
+  color: white;
+  font-size: 20px;
+  margin-left: 10%;
+  font-family: Montserrat, sans-serif;
+}
+
+/* .memberImage{
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  border-radius: 100%;
+} */
+
+.teamMembers {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.headerTeamDetails {
+  color: white;
+  text-align: center;
+  font-size: 1.75rem;
+  padding-bottom: 20px;
+  font-family: Montserrat, sans-serif;
+}
+
+.lastCard {
+  border: none;
+}

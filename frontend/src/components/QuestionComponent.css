@@ -1,0 +1,23 @@
+.story-wrapper{
+    padding-top: 200px;
+    height: max-content;
+    min-height: 100vh;
+    background-image: url('../pages/iron-man.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.story-wrapper .heading{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.story-wrapper .text-wrapper{
+    padding: 1rem 1.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}

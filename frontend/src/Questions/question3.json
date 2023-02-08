@@ -1,0 +1,55 @@
+[
+    {
+        "id": 1,
+        "question": "I am the fountain from which no one can drink.For many I am considered a necessary link. You can see me at the intersection of 3 road.I am also known as rateless erasure code.",
+        "solution":"FOUNTAIN",
+        "Hint":"Enter the answer in UpperCase.",
+        "hintText": "I vividly remember I used to watch this beautiful scenery ⛲ while reading my magazines and books, but as an engineer not working mechanisms always bugged me. One of the clues is definitely there, find the mechanism, and you are good to go. As the books I read were pure literature.",
+        "storyLine":"Tony : The world has changed in the last five years but this was literally out of the blue . Turns out it was loki who was playing with my mind and that is why these weird puzzles ? I don't know how he got back, Hulk said that he died but we can't be sure of his death . Right!"
+    },
+    {
+        "id": 2,
+        "question": "To reach the next location, you have to provide a binary CODE. The answer is in reverse order and the word has ' 24 number of permutations, and he is one of the main characters of the story '.",
+        "solution":"YNOT",
+        "Hint":"Enter the answer in UpperCase.",
+        "hintText": "One day Tony Boss was testing his drone, but eventually the battery of that drone drained out and dropped at the entry of tallest department of the college from where he got some parts for the drone. And also before drone falling he got to see an organization logo from the bird view at the entry.",
+        "storyLine":"Tony: Hey you remember the time when I confronted loki on stark tower. It was nice to roast a god. Though, being the protagonist is kind of my thing. My personality is reflected in my puzzles. Here's another one for you. "
+    },
+    {
+        "id": 3,
+        "question": "Are you ready to uncover the secrets locked away in the ancient arc reactor ? To gain access, you must first crack the code. The key to unlocking the box lies in solving the equation A+R+C = _ _ 4. Can you decipher the missing numbers and unlock the hidden clue within?. If you need help you can 'ask key'. The fate of avengers rests in your hands.",
+        "questionImg": "https://i.postimg.cc/Z5c9LXjV/image2.jpg",
+        "solution":"21",
+        "Hint":"Enter the answer in number and avoid spacing.",
+        "hintText": "Tony Stark's sleek and advanced Iron Man suit, known for its cutting-edge technology, suddenly experienced a glitch. As he checked the built-in clock, he was surprised to see that it had stopped working and displayed a mysterious message instead: 'JOURNEY STARTS FROM BROKEN CLOCK NITA NITA NITA NITA NITA. ' Could this be a cryptic hint at a new mission for the legendary hero.",
+        "storyLine":"Tony: My suit suddenly experienced a glitch while I flew above your college recently in my quest to find hulk. As I checked the built-in clock, I was surprised to see that it had stopped working and displayed a mysterious message instead: JOURNEY STARTS FROM BROKEN CLOCK NITA NITA NITA NITA NITA.Could this be a cryptic hint to a new location."
+    },
+    {
+        "id": 4,
+        "question": " I am a 4-bit number, and when you take the XOR of me with the maximum 3-bit even number, the result is a perfect power of 2. Can you figure out what number I am?",
+        "solution":"1110",
+        "Hint":"Enter the answer in bits(0's and 1's) and avoid spacing.",
+        "hintText": "It was a typical day for Iron Man as he soared through the skies above NITA. But suddenly, a warning blared in his suit - his battery levels were dangerously low. In a desperate search for a power source, Tony spotted an electric pole on the ground below. As he descended to make the necessary charge, he couldn't help but notice the shape of the obelisk painted on the pole. It was a strange coincidence, but little did Tony know that it would be the key to his next mission.",
+        "storyLine":"Tony : You solved it! Maybe I should have taken more efforts hiding the codes. But the next one is quite close as well .Yeah, I was a spoiled kid. "
+
+    },
+    {
+        "id": 5,
+        "question": "I just found a number with an interesting property: When I divide it by 2, the remainder is 1. When I divide it by 3, the remainder is 2. When I divide it by 4, the remainder is 3. When I divide it by 5, the remainder is 4. When I divide it by 6, the remainder is 5. When I divide it by 7, the remainder is 6. When I divide it by 8, the remainder is 7. When I divide it by 9, the remainder is 8. When I divide it by 10, the remainder is 9. It's not a small number, but it's not really big either. When I looked for a smaller number with this property I couldn't find one. Give me the smallest number with this property. Can you find it?" ,
+        "solution":"2519",
+        "Hint":"Enter the answer in number and avoid spacing.",
+        "hintText": "Captain respects tony very much, but he was never an admirer of Tony's reckless behavior. He always said take your “STEPS CAREFULLY”. He has left the hint at this place,  you can use this website",
+        "hintLink":"https://www.dcode.fr/wakanda-alphabet",
+        "hintImg": "https://i.postimg.cc/FKQRkL8t/image3.jpg",
+        "hintImg1": "https://i.postimg.cc/T1BjLcwZ/Screenshot-2023-01-28-023815.png",
+        "storyLine":"Tony: You remember my roommate . I told you about him yesterday. Oh! there are new ones. Don't worry, Long story short next one is on your aptitude .So WATCH YOUR STEPS!!"
+    },
+    {
+        "id": 6,
+        "question": "Akshat and Gaurav are friends. One day they both head out to a mocktail bar to enjoy drinks together. Akshat ordered the same drinks for both of them on ice. Gaurav was very thirsty so he pulled off 5 drinks while Akshat could drink only one.  The drinks were poisoned so Akshat died but Gaurav survived. Where was the poison ?",
+        "solution":"ICE",
+        "Hint":"Enter the answer in UpperCase.",
+        "hintText":"You went there yesterday. You know how it ends right? And if you weren't ask for DCC ki favourite Chai.",
+        "storyLine":"Tony: Everday Me and my girlfriend used to go there .Although I hated the rest of the day but those 30 minutes healed everything. Not because of her . She only went there to shop but I went there to have the king of beverages."
+    }
+]

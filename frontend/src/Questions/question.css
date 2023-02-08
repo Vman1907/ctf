@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+
+.question-wrapper{
+    overflow: hidden;
+    background-image: url('../pages/iron-man.png');
+    min-height: 100vh;
+    height: max-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 20px 20px;
+    text-align: center;
+}
+
+.question-wrapper .Typewriter{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.typewriter-wrapper{
+    font-family: "montserrat";
+}
+
+.questionContainer{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+}
+
+.loading-wrapper{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./iron-story.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.question-img{
+    margin: 2rem 1rem;
+    width: 90%;
+}
+.questionContent{
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.questionSerial{
+    font-size: 21px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.inputTextField{
+    color: #FFFFFF;
+}
+
+.questionForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.submitButton{
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    width: 153px;
+    color: #D9D9D9;
+    background: #E13D25;
+    border: none;
+    border-radius: 5px;
+    height: 45px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.answerInput{
+    background: #5F616C;
+    border-radius: 5px;
+    border: none;
+    height: 45px;
+    min-width: 254px;
+    max-width: 500px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    padding-left: 18px;
+    padding-right: 18px;
+    color: rgba(255, 255, 255, 0.44);
+}
+
+
+.message{
+    width: 90px;
+    height:90px;
+    background-size: cover;
+    margin-top: 80px;
+
+}
+.successGIF{
+
+    height: 200px;
+    z-index: 2;
+    padding: 0;
+    top: 150px;
+    margin: 0px;
+    width: 100%;
+    background-position: center;
+    position: absolute;
+    /* background-image:url('./giphy\ \(1\).gif'); */
+    background-repeat: no-repeat;
+}
+
+.question-text{
+    color:#fff
+}
+
+.hint-wrapper{
+    color: #E13D25;
+    margin-top: 1rem;
+}
+
+.failureMessage{
+    /* background-image: url('./giphy\ \(3\).gif'); */
+    width: 100%;
+    background-position: center;
+    background-position: top;
+    height: 10rem;
+}
+
+.goBackLink{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    text-decoration-line: underline;
+    color: #D9D9D9;
+}
+
+.arrowImage{
+    width: 23px;
+    height: 21px;
+    margin-right: 15px;
+    background-size: cover;
+}
+
+.goBackLinkContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+:focus{outline: none;}
+
+.col-3{ position: relative;}
+
+.effect-9{
+    transition: 0.2s;
+}
+
+.Typewriter__wrapper{
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.effect-9 ~ .focus-border:before,
+.effect-9 ~ .focus-border:after{content: ""; position: relative; top: 0; right: 0; width: 0; height: 2px;border-radius: 5%; background: #3399FF; transition: 0.2s; transition-delay: 0.2s;}
+.effect-9 ~ .focus-border:after{top: auto; bottom: 0; right: auto; left: 0; transition-delay: 0.6s;}
+.effect-9 ~ .focus-border i:before,
+.effect-9 ~ .focus-border i:after{content: ""; position: relative; top: 0; left: 0; width: 2px; height: 0; background: #3399FF;border-radius: 5%; transition: 0.2s;}
+.effect-9 ~ .focus-border i:after{left: auto; right: 0; top: auto; bottom: 0; transition-delay: 0.4s;}
+.effect-9:focus ~ .focus-border:before,
+.effect-9:focus ~ .focus-border:after{width: 100%; transition: 0.2s; transition-delay: 0.6s;}
+.effect-9:focus ~ .focus-border:after{transition-delay: 0.2s;}
+.effect-9:focus ~ .focus-border i:before,
+.effect-9:focus ~ .focus-border i:after{height: 100%; transition: 0.2s;}
+.effect-9:focus ~ .focus-border i:after{transition-delay: 0.4s;}
+
+.card{
+    width: 300px;
+    margin: 300px auto 0;
+    padding: 3rem 0 2rem;
+    background-image: url('./confetti.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card .cong{
+    font-size: 1.75rem;
+    font-size: 'montserrat';
+    padding: 1rem;
+}
+
+.card .cong:nth-child(2){
+    font-size: 1.25rem;
+    color: #5F616C;
+}
